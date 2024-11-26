@@ -1,0 +1,106 @@
+/* Styling for the main container */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for the folder container and general structure */
+  .center {
+    background-color: #28272c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+  }
+  
+  /* Styling for the connected account display */
+  .text1 {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Folder creation input and button */
+  .textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .textarea:focus {
+    outline: none;
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #28272c;
+  }
+  
+  /* Styling for the folder list */
+  h3.text2 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Folder design using a class */
+  .folder {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+  
+  
+  
+  .folder-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Styling for the file control buttons inside the folder */
+  .buttonofall {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-top: 10px    ;
+  }
+  
+  .buttonofall:hover {
+    background-color: #218838;
+  }
+  
+  /* File upload section */
+  input[type="file"] {
+    margin-top: 20px;
+  }
+  
+li {
+    list-style: none;
+}

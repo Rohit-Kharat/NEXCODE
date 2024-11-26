@@ -1,0 +1,142 @@
+.footer {
+    background-color: #27282c;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 180px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+/* Footer Heading and Columns Wrapper */
+.footer-header-columns {
+    display: flex;
+    justify-content: space-between;  /* Align heading and columns side by side */
+    align-items: flex-start;
+    flex-wrap: wrap;  /* Allow wrapping on smaller screens */
+    margin-bottom: 20px;
+}
+
+/* Footer Heading */
+.footer-heading {
+    flex: 1;  /* Give the heading section its own space */
+    margin-right: 0px; /* Set a specific width, adjust as needed */
+}
+
+
+/* Footer Columns */
+.footer-columns {
+    display: flex;
+    flex: 3;  /* Allow columns to take more space than the heading */
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.footer-column:last-child {
+    margin-right: 0;
+}
+
+.footer-column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+    line-height: 30px;
+}
+
+.footer-column ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Subscription Section */
+.footer-subscribe {
+    margin-bottom: 30px;
+    margin-top: 20px; /* Space below the subscription section */
+    width: 60vh;
+  }
+  
+  .footer-subscribe h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-subscribe p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .subscribe-btn {
+    padding: 10px 20px;
+    background-color: #0366d6; /* Button color similar to GitHub */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #00509d; /* Hover color for the button */
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid #444;
+    flex-wrap: wrap; /* Allow wrapping of bottom content on smaller screens */
+}
+
+.footer-copy {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Gap between links */
+    flex-wrap: wrap; /* Allow wrapping of links to next line */
+}
+
+.footer-copy p {
+    margin: 0;
+    color: #8D96A0;
+}
+
+.footer-copy a {
+    color: #8D96A0;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.footer-copy a:hover {
+    text-decoration: underline;
+}
+
+.foot-img {
+    display: flex;
+    align-items: center;
+}
+
+.logoofthepage {
+    margin-top: 30px;
+    margin-bottom: 0;
+}

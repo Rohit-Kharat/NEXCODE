@@ -1,0 +1,204 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;  /* Ensure the pointer cursor for links */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #27282c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 72px;
+    position: relative;
+    z-index: 100;  /* Ensure navbar is on top */
+  }
+  
+  .logo h1 {
+    color: #fff;
+  }
+  
+  /* Ensure nav links are displayed properly and clickable */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 150px;
+    z-index: 101;  /* Make sure links are clickable */
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect for navigation links */
+  .nav-links a:hover {
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Hamburger menu for mobile view */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 100%;
+      flex-direction: column;
+      text-align: right;
+    }
+  
+    .nav-links li {
+      margin: 15px 0;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  
+    .hamburger .bar {
+      background-color: white;
+    }
+  }
+  
+  /* Specific logo padding */
+  .logo {
+    padding-left: 120px;
+  }
+  
+  .nav-links2 {
+    list-style: none;
+    display: flex;
+    margin-right: 140px;
+  }
+  
+  .nav-links2 li {
+    margin-left: 20px;
+  }
+  
+  .nav-links2 a {
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect for second navigation links */
+  .nav-links2 a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .logo2 h1 {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .logo2 {
+    padding-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo2 img {
+    margin-top: 0px;
+  }
+  
+  /* Sign Up button styling */
+  .signup-btn {
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .signup-btn:hover {   
+    color: white;   
+    cursor: pointer;
+  }
+  
+  /* Sign In button styling */
+  .signin-btn {
+    border: 2px solid white;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .signin-btn:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  /* Icon styling */
+  i {
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Horizontal rule styling */
+  hr {
+    border-color: #27282c;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+  }
+  
+  /* Logo container with flex alignment */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img img {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  .logoofthepage{
+    margin-top: 1px;
+    width: 50px;
+    height: 50px;
+  }
+
+.connect {
+    border: 1px solid white;
+    border-radius: 20px;
+}

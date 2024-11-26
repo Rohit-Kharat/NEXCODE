@@ -1,0 +1,214 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  .imageofinfo {
+    position: absolute; 
+    top: 0;          
+    right: 0;        
+    z-index: 1;     
+  }
+  
+  .imageofinfo img {
+    max-width: 100%;  
+    height: auto; 
+   
+  }
+  
+  .Info{
+      width:50%;
+      margin-left: 10%;
+      margin-top: 100px;
+      position: relative; 
+      z-index: 2; 
+  }
+  .heading {
+    font-family: JetBrains Sans, Inter, system-ui, -apple-system,
+      BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans,
+      Helvetica Neue, Arial, sans-serif;
+    
+    font-size: var(--rs-h1-font-size, 53px);
+    font-weight: 600;
+    font-weight: var(--rs-font-weight-semi-bold, 700);
+    line-height: 49px;
+    line-height: var(--rs-h1-line-height, 49px);
+  }
+  .heading2 {
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    
+    font-size: var(--rs-hero-font-size, 42px);
+    font-weight: 600;
+    font-weight: var(--rs-font-weight-semi-bold, 600);
+    line-height: 72px;
+    line-height: var(--rs-hero-line-height, 72px);
+  }
+  .heading3 {
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 39px;
+  }
+  .button1 {
+    margin-top: 40px;
+    background-color: white;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    font-size: 18px;
+    height: 45px;
+    width: 150px;
+    border: 0px;
+    padding-bottom: 30px;
+  }
+  .imageofnice {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7vw;
+    position: relative;
+    z-index: 2;
+  }
+  .imageofcode {
+    width: 80vw;
+  }
+  .whytouse {
+    font-family: var(
+      --rs-font-family-headers,
+      var(
+        --rs-font-family-jb-sans,
+        "JetBrains Sans",
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Droid Sans",
+        "Helvetica Neue",
+        Arial,
+        sans-serif
+      )
+    );
+    font-feature-settings: "kern", "liga", "calt";
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 72px;
+  }
+  .bestthing {
+    letter-spacing: normal;
+    font-family: JetBrains Sans, Inter, system-ui, -apple-system,
+      BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans,
+      Helvetica Neue, Arial, sans-serif;
+    font-family: var(
+      --rs-font-family-headers,
+      var(
+        --rs-font-family-jb-sans,
+        "JetBrains Sans",
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Droid Sans",
+        "Helvetica Neue",
+        Arial,
+        sans-serif
+      )
+    );
+    font-feature-settings: "kern", "liga", "calt";
+    font-size:30px;
+    font-weight: medium;
+  }
+  .paragraph {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .Topics{
+      margin: 0;
+      font-size: 35px;
+  }
+
+  .imageicon {
+    height: 70px;
+  }
+  .size {
+    margin-top: 30px;
+    height: 40vh;
+    width: 35vw;
+  }
+  .textSize{
+    margin-top: 8vw;
+      margin-left: 10%;
+      gap: 5vw;
+  }
+  .displayflex{
+      display: flex;
+      gap: 5%;
+  }
+  .code-png{
+      filter: invert(100%);
+      height: 70px;
+  }
+  .outofthebook{
+      filter: invert(100%);
+      height: 80px;
+      width: 80px;
+  }
+  .roadmap{
+      filter: invert(100%);
+      height: 80px;
+      width: 80px;
+  }
+  .image-container {
+      width: 80%; 
+      overflow: hidden;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      position: relative;
+      height: 100px;
+      margin-left: 150px;
+      margin-top: 150px;
+  }
+  .companyimage {
+      min-width: 15vw; /* Set a minimum width for images */
+      height: 15vw;
+      margin: 0 10px; /* Adds some spacing between images */
+      animation: slide 10s linear infinite;
+      filter: invert(100%);
+  }
+  
+  @keyframes slide {
+      0% {
+          transform: translateX(100%);
+      }
+      100% {
+          transform: translateX(-100%);
+      }
+  }
+
+.displayflex {
+    margin-top: 20px;
+}
+.align{
+  display: flex;
+  margin-left: 10vw;
+  margin-top:0;
+}
+.logoofthepage{
+  width: 30px;
+  height: 30px;
+}
+
