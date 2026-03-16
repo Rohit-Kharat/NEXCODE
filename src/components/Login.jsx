@@ -15,7 +15,7 @@ const Login = () => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
       sessionStorage.setItem("user-creds", JSON.stringify({ email }));
-      // Navigate to home page upon successful login
+      
       navigate("/home");
     } catch (error) {
       console.log(error);
