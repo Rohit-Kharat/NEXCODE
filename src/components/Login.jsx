@@ -19,7 +19,7 @@ const Login = () => {
       navigate("/home");
     } catch (error) {
       console.log(error);
-      // Optionally handle login errors, e.g., display an error message
+      
     }
   };
 
