@@ -16,23 +16,23 @@ img {
 
 .registration {
   width: 25vw;
-  background-color: #222; /* Dark gray background for the form */
+  background-color: #222; 
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
 }
 
 .form-control {
-  background-color: #333; /* Slightly lighter input field background */
-  color: #fff; /* White text inside inputs */
+  background-color: #333;
+  color: #fff; 
 }
 
 .form-control::placeholder {
-  color: #bbb; /* Light gray placeholder text */
+  color: #bbb; 
 }
 
 label {
-  color: #ccc; /* Lighter color for labels */
+  color: #ccc; 
 }
 
 .btn-primary {
