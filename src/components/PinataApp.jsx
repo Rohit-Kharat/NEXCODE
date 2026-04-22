@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import axios from 'axios';
 
-// ABI and contract address
+
 const contractABI = [
   {
     "inputs": [
