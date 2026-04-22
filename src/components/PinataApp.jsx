@@ -107,12 +107,11 @@ const PinataApp = () => {
     loadBlockchainData();
   }, []);
 
-  // Handle file input change
   const handleFileChange = (event) => {
     setFile(event.target.files[0]);
   };
 
-  // Upload file to Pinata (IPFS)
+
   const uploadToPinata = async () => {
     if (!file) {
       alert('Please select a file first');
