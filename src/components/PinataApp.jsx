@@ -31,7 +31,7 @@ const contractABI = [
     "stateMutability": "nonpayable",
     "type": "function"
   },
-  // Additional ABI methods and events...
+
   {
     "inputs": [{ "internalType": "address", "name": "_contributor", "type": "address" }],
     "name": "registerContributor",
